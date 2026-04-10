@@ -1,110 +1,51 @@
-# 📊 Proyecto de Análisis de Ventas con SQL Server
+## Hi there 👋
 
-## 🚀 Descripción
-
-Este proyecto tiene como objetivo analizar datos de ventas para identificar tendencias, productos más vendidos y oportunidades de mejora en el negocio.
-
-Se desarrollaron consultas avanzadas en **T-SQL** para transformar y analizar la información, generando insights clave para la toma de decisiones.
+Soy **Ingeniera de Sistemas** en formación, apasionada por el mundo de los datos 📊
+Actualmente enfocada en desarrollarme como **Data Engineer Junior**.
 
 ---
 
-## 🎯 Objetivos
+### 🚀 Sobre mí
 
-* Analizar el comportamiento de ventas por mes
-* Identificar los productos más vendidos
-* Detectar productos con bajo rendimiento
-* Generar reportes para la toma de decisiones
-
----
-
-## 🛠️ Tecnologías utilizadas
-
-* SQL Server
-* T-SQL
-* Excel
-* Power BI
+* 🔭 Actualmente trabajando en proyectos de **análisis de datos con SQL Server**
+* 🌱 Aprendiendo **ETL, modelado de datos y Power BI**
+* 👯 Buscando colaborar en proyectos de **data analytics / data engineering**
+* 🤔 Interesada en mejorar mis habilidades en **Python para datos**
+* 💬 Pregúntame sobre **SQL, T-SQL y análisis de datos**
+* 📫 Cómo contactarme: *agrega tu LinkedIn aquí*
+* ⚡ Dato curioso: Me gusta convertir datos en decisiones 💡
 
 ---
 
-## 📂 Estructura del proyecto
+### 🛠️ Tecnologías y herramientas
 
-```
-📁 analisis-ventas
- ┣ 📂 datasets
- ┣ 📂 scripts-sql
- ┣ 📂 dashboards
- ┗ README.md
-```
+* 💾 SQL Server / T-SQL
+* 📊 Power BI
+* 📁 Excel
+* 🐍 Python (básico)
+* 🔧 Git & GitHub
 
 ---
 
-## 📊 Análisis realizado
+### 📌 Proyectos destacados
 
-### 🔹 Ventas mensuales
-
-Consulta para obtener ventas por mes:
-
-```sql
-SELECT 
-    MONTH(fecha) AS mes,
-    SUM(total) AS ventas_totales
-FROM ventas
-GROUP BY MONTH(fecha)
-ORDER BY mes;
-```
+* 📊 **Análisis de ventas con SQL**
+* 📈 **Dashboard en Power BI**
+* 🔄 **Proceso ETL básico con datos CSV**
 
 ---
 
-### 🔹 Productos más vendidos
+### 📊 GitHub Stats
 
-```sql
-SELECT 
-    producto,
-    SUM(cantidad) AS total_vendido
-FROM ventas
-GROUP BY producto
-ORDER BY total_vendido DESC;
-```
+*(Opcional: puedes agregar widgets después si quieres)*
 
 ---
 
-## 📈 Resultados
+### 🌟 Objetivo profesional
 
-* El producto más vendido fueron los **zapatos**
-* Se observó un incremento en ventas en el mes de febrero
-* Las **gorras** presentan baja rotación, se recomienda promoción
+Convertirme en **Data Engineer**, participando en proyectos donde pueda diseñar, transformar y optimizar datos para generar valor en el negocio.
 
 ---
 
-## 📸 Evidencia
+⭐ Gracias por visitar mi perfil
 
-*Aquí puedes agregar capturas de tus dashboards o resultados*
-
----
-
-## 💡 Conclusiones
-
-El análisis permitió identificar oportunidades de mejora en la estrategia comercial, enfocándose en productos con menor rendimiento.
-
----
-
-## 👩‍💻 Sobre mí
-
-Ingeniera de Sistemas en formación con interés en el área de **Ingeniería de Datos**.
-
-🔹 Habilidades:
-
-* SQL (intermedio)
-* Análisis de datos
-* Visualización (Power BI)
-
----
-
-## 📬 Contacto
-
-* LinkedIn: *agrega tu link aquí*
-* GitHub: *tu usuario*
-
----
-
-⭐ Si te gustó este proyecto, ¡no olvides darle un star!
