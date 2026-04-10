@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-Soy **Ingeniera de Sistemas** en formación, apasionada por el mundo de los datos 📊
+Soy Cinthia Moquillaza, **Ingeniera de Sistemas** en formación, apasionada por el mundo de los datos 📊
 Actualmente enfocada en desarrollarme como **Data Engineer Junior**.
 
 ---
